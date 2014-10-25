@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+<head>
+<title>whisper</title>
+<meta charset="utf-8" />
+<meta name="description" content="A mobile newspaper template homepage" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+<link type="text/css" href="css/elastislide.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+<div id="container">
+	<header>
+		<a id="logo" href="index.html">
+		<!--/.title-->
+			<!--/.subtitle-->
+		</a><!--/#logo-->
+        <p>Select Your Country</p>
+         <p class="select-c">
+         
+        <form name="gotolocation" method="POST">
+<select name="DDMenu" size=1 onchange="location.href=(form.DDMenu.options[form.DDMenu.selectedIndex].value)">
+ <option value="lib.html">Libyan Arab Jahahiriya</option>
+
+
+ <option value="algeria.html">Algeria</option>
+                                <option value="chad.html">Chad</option>
+                                <option value="cote.html">Cote D'ivoire</option>
+                                <option value="djibouti.html">Djibouti</option>
+                                <option value="egypt.html">Egypt</option>
+                                <option value="index.html">Ghana</option>
+                                 <option value="kenya.html">Kenya</option>
+                                
+                                <option value="mali.html">Mali</option>
+                                <option value="mauritius.html">Mauritius</option>
+                                <option value="morocco.html">Morocco</option>
+                                <option value="nigeria.html">Nigeria</option>
+                                <option value="South Africa.html">South Africa</option>
+                                <option value="togo.html">Togo</option>
+                                <option value="tunisia.html">Tunisia</option>
+                              
+                                <option value="sudan.html">Sudan</option>
+                                <option value="Sierra Leone.html">Sierra Leone</option> <option value="sudan.html">Sudan</option>
+                                <option value="Sierra Leone.html">Sierra Leone</option>
+                                <option value="togo.html">Togo</option>
+                                <option value="tunisia.html">Tunisia</option>
+                              
+                                 <option value="uganda.html">Uganda</option>
+                                <option value="zambia.html">Zambia</option>
+								 <option value="zimbabwe.html">Zimbabwe</option>
+                                 
+								
+
+</select>
+</form>
+      
+	</header>
+	<nav id="main-menu">
+		<ul>
+			<li><img class="icon" src="fire.png"/><span class="about">Fire Service</span><strong class="strong">193</strong>  <a href="tel:193"><img src="dail.png"/></a></li>
+
+			<li><img class="icon" src="ambu.png"/><span class="about">Ambulance</span><strong class="strong">193</strong>  <a href="tel:193"><img src="dail.png"/></a></li>
+			
+			<li><img class="icon" src="police.png"/><span class="about">Police Station</span><strong class="strong">193</strong>  <a href="tel:193"><img src="dail.png"/></a></li>
+			
+			
+		</ul>
+	</nav><!--/#main-menu--><!--/#carousel-->
+ 
+
+</div>
+
+
+
+
+
+
+
+
+<!--/#container-->
+
+<!--START JAVASCRIPT-->
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript">
+	$('#carousel').elastislide({
+		imageW 	: 180,
+		minItems	: 4
+	});
+</script>
+<!--END JAVASCRIPT-->
+
+</body>
+</html>
