@@ -97,7 +97,7 @@ form{
 	vertical-align: baseline;
 	outline: none;
 	margin-top: 70;
-	margin-left: 40px;
+	margin-left: 20px;
 	margin-bottom: 0;
 	display: block;
 	color: #b214bf;
@@ -173,12 +173,21 @@ header {
 	}
 #logo {
 	background:url(../images/logo.png) no-repeat;
-	margin-left:40px;
+	margin-left:30px;
 	display:block;
 	height:100px;
 	text-decoration:none;
 	color:#fff;
 	outline:none;
+	}
+
+
+	.hee{
+
+margin-left:30px;
+
+
+
 	}
 #logo .title {
 	font-size:2.625em;
