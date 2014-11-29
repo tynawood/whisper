@@ -1,12 +1,12 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id = "com.phonegap"
+id = "com.whisper"
 version = "1.0.0">
 <name>Whisper</name>
 <description>
 An emergency reporting App which helps you connect to the appropriate emergency service in times of need.No need to memorise emergency contacts of every country you visit.
 </description>
-<author href="" email="support@phonegap.com">
+<author href="" email="inappshub@gmail.com">
 Inappshub Team
 </author>
 <!--
@@ -14,6 +14,8 @@ If you do not want any permissions to be added to your app, add the
 following tag to your config.xml; you will still have the INTERNET
 permission on your app, which PhoneGap requires.
 -->
+
+<application android:debuggable="false"/>
 <preference name="permissions" value="none"/>
 <!-- Customize your app and platform with the preference element. -->
 <preference name="phonegap-version" value="3.5.0" /> <!-- all: current version of PhoneGap -->
